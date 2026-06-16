@@ -64,3 +64,36 @@ Build Lifecycle (clean → compile → test → package)
 WAR Artifact Generation
    ↓
 Output Stored in target/ Directory
+
+## 🔄 Project Development Workflow
+
+The project was implemented using the following workflow:
+
+### Step 1: Environment Preparation
+- Accessed AWS CloudShell environment
+- Verified Java installation
+- Verified Maven installation
+
+### Step 2: Source Code Setup
+- Cloned the vProfile application source code from GitHub
+- Navigated to the project directory
+
+### Step 3: Maven Build Execution
+Executed the Maven build lifecycle:
+
+```bash
+mvn clean
+mvn compile
+mvn test
+mvn package
+mvn install
+
+### Step 4: Artifact Generation
+- Maven successfully compiled the application
+- Dependencies were downloaded automatically
+- Build artifact was generated successfully
+
+### Step 5: Validation
+- Verified build success
+- Confirmed WAR artifact generation
+- Confirmed artifact availability inside the target directory
