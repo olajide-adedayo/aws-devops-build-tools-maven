@@ -12,3 +12,19 @@ This project demonstrates the use of Maven as a Build Tool in a DevOps workflow 
 The project was executed using the vProfile Java web application and focuses on understanding the Maven build lifecycle, artifact generation, and CI/CD readiness.
 
 As part of this hands-on implementation, Maven was used to compile source code, execute tests, package the application, and generate a deployable WAR artifact suitable for deployment in enterprise environments.
+
+## 📌 Business Problem
+
+In modern software development, manually compiling source code, managing dependencies, and packaging applications can be time-consuming and error-prone.
+
+Without a standardized build process, teams often face challenges such as:
+
+- Inconsistent build environments
+- Dependency conflicts
+- Build failures due to missing libraries
+- Difficulty reproducing builds across teams
+- Delays in software delivery pipelines
+
+Organizations require reliable and repeatable build automation processes to ensure software can be consistently built, tested, packaged, and prepared for deployment.
+
+Maven addresses these challenges by providing a structured build lifecycle, centralized dependency management, and automated artifact generation for Java applications.
