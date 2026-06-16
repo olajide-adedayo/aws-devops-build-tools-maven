@@ -104,7 +104,7 @@ mvn install
 
 This screenshot shows the successful cloning and preparation of the vProfile application source code before the build process.
 
-![VProfile Project Setup](screenshots/01-vprofile-build-milestone.png)
+![VProfile Project Setup](https://raw.githubusercontent.com/olajide-adedayo/aws-devops-build-tools-maven/main/screenshots/01-vprofile-build-milestone.png)
 
 ---
 
