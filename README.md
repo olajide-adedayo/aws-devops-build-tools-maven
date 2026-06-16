@@ -40,3 +40,27 @@ The main objectives of this project are:
 - To generate deployable artifacts (WAR file)
 - To prepare the project for CI/CD pipeline integration
 - To simulate real-world software build automation practices used in industry
+
+  ## ☁️ AWS Services Used
+
+Although this project is primarily focused on Build Tools, the execution was carried out in a cloud-based development environment.
+
+- AWS CloudShell (Linux-based environment for execution)
+- GitHub (Source code version control and repository hosting)
+
+- ## 🏗️ Solution Architecture
+
+```text
+Developer
+   ↓
+GitHub Repository (Source Code)
+   ↓
+AWS CloudShell (Linux Environment)
+   ↓
+Maven Build Tool
+   ↓
+Build Lifecycle (clean → compile → test → package)
+   ↓
+WAR Artifact Generation
+   ↓
+Output Stored in target/ Directory
