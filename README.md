@@ -28,3 +28,15 @@ Without a standardized build process, teams often face challenges such as:
 Organizations require reliable and repeatable build automation processes to ensure software can be consistently built, tested, packaged, and prepared for deployment.
 
 Maven addresses these challenges by providing a structured build lifecycle, centralized dependency management, and automated artifact generation for Java applications.
+
+## 🎯 Project Objectives
+
+The main objectives of this project are:
+
+- To understand the Maven build lifecycle in a real-world DevOps workflow
+- To automate Java application build processes
+- To manage project dependencies using Maven (pom.xml)
+- To execute build phases including clean, compile, test, and package
+- To generate deployable artifacts (WAR file)
+- To prepare the project for CI/CD pipeline integration
+- To simulate real-world software build automation practices used in industry
