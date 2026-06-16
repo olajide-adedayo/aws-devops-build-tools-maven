@@ -97,3 +97,35 @@ mvn install
 - Verified build success
 - Confirmed WAR artifact generation
 - Confirmed artifact availability inside the target directory
+
+## 📸 Project Screenshots
+
+### 1. VProfile Project Setup
+
+This screenshot shows the successful cloning and preparation of the vProfile application source code before the build process.
+
+![VProfile Project Setup](screenshots/01-vprofile-build-milestone.png)
+
+---
+
+### 2. Maven Clean Execution
+
+This screenshot shows the successful execution of the Maven clean phase, which removes previous build artifacts and prepares the project for a fresh build.
+
+![Maven Clean Execution](screenshots/02-maven-clean.png)
+
+---
+
+### 3. Maven Build Success
+
+This screenshot shows the successful completion of the Maven build lifecycle, confirming that the application compiled and packaged successfully.
+
+![Maven Build Success](screenshots/03-maven-build-success.png)
+
+---
+
+### 4. WAR Artifact Generation
+
+This screenshot shows the generated WAR artifact inside the target directory, confirming successful packaging and deployment readiness.
+
+![WAR Artifact Generation](screenshots/04-war-artifact.png)
