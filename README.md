@@ -145,16 +145,73 @@ This screenshot shows the generated WAR artifact inside the target directory, co
 
 ---
 
+---
+
 ## 🛠️ Troubleshooting & Root Cause Analysis
 
-### Challenge
+During the execution of this project, a few challenges were encountered related to environment setup and build consistency in AWS CloudShell.
 
-During project execution, build consistency issues were encountered due to Java and Maven runtime environment mismatches.
+### 🔴 Challenge 1: Maven Build Inconsistency
 
-### Root Cause
+*Issue:*  
+Maven build process failed intermittently due to Java runtime mismatch in CloudShell environment.
 
-Incorrect environment configuration and runtime alignment.
+*Root Cause:*  
+Incorrect or inconsistent JAVA_HOME configuration across sessions.
 
-### Resolution
+*Solution:*  
+Reconfigured JAVA_HOME, validated Java version compatibility, and ensured Maven was aligned with the correct Java runtime before re-executing the build lifecycle.
 
-Verified Java installation, configured JAVA_HOME correctly, and validated Maven execution environment before rebuilding the application.
+---
+
+### 🔴 Challenge 2: Artifact Generation Confusion
+
+*Issue:*  
+WAR file was not immediately visible after build execution.
+
+*Root Cause:*  
+Misunderstanding of Maven build output directory structure.
+
+*Solution:*  
+Identified that Maven stores build artifacts in the target/ directory and verified successful WAR generation after build completion.
+
+---
+
+## 📚 Key Learnings
+
+- Maven build lifecycle (clean, compile, test, package, install)
+- Java build automation in DevOps workflows
+- Dependency management using Maven (pom.xml)
+- AWS CloudShell Linux-based development environment
+- Debugging build and environment configuration issues
+- Understanding artifact generation and storage structure
+
+---
+
+## 📝 Project Documentation
+
+- 📘 Medium Article:  
+  https://medium.com/@olajideadedayo230/building-a-java-web-application-with-maven-in-aws-cloudshell-a-complete-devops-build-tools-1a817f316211
+
+- 💻 GitHub Repo:  
+  https://github.com/olajide-adedayo/aws-devops-build-tools-maven
+
+- 🔗 LinkedIn:  
+  https://www.linkedin.com/in/olajide-adedayo-9126593b3/
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates practical DevOps implementation using Maven for build automation of a Java web application in AWS CloudShell.
+
+It provides hands-on experience in build lifecycle management, dependency handling, and troubleshooting real-world environment issues, forming a strong foundation for CI/CD pipeline development.
+
+---
+
+## 👤 Author
+
+*Name:* Olajide Adedayo  
+*GitHub:* https://github.com/olajide-adedayo  
+*LinkedIn:* https://www.linkedin.com/in/olajide-adedayo-9126593b3/  
+*Medium:* https://medium.com/@olajideadedayo230
