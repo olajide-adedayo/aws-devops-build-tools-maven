@@ -81,12 +81,13 @@ The project was implemented using the following workflow:
 ### Step 3: Maven Build Execution
 Executed the Maven build lifecycle:
 
-```bash
+bash
 mvn clean
 mvn compile
 mvn test
 mvn package
 mvn install
+
 
 ### Step 4: Artifact Generation
 - Maven successfully compiled the application
