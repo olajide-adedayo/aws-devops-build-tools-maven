@@ -98,13 +98,15 @@ mvn install
 - Confirmed WAR artifact generation
 - Confirmed artifact availability inside the target directory
 
+---
+
 ## 📸 Project Screenshots
 
 ### 1. VProfile Project Setup
 
 This screenshot shows the successful cloning and preparation of the vProfile application source code before the build process.
 
-![VProfile Project Setup](https://raw.githubusercontent.com/olajide-adedayo/aws-devops-build-tools-maven/main/screenshots/01-vprofile-build-milestone.png)
+![VProfile Project Setup](https://github.com/olajide-adedayo/aws-devops-build-tools-maven/blob/main/screenshots/01-vprofile-build-milestone.png?raw=true)
 
 ---
 
@@ -112,7 +114,7 @@ This screenshot shows the successful cloning and preparation of the vProfile app
 
 This screenshot shows the successful execution of the Maven clean phase, which removes previous build artifacts and prepares the project for a fresh build.
 
-![Maven Clean Execution](screenshots/02-maven-clean.png)
+![Maven Clean Execution](https://github.com/olajide-adedayo/aws-devops-build-tools-maven/blob/main/screenshots/02-maven-clean.png?raw=true)
 
 ---
 
@@ -120,7 +122,7 @@ This screenshot shows the successful execution of the Maven clean phase, which r
 
 This screenshot shows the successful completion of the Maven build lifecycle, confirming that the application compiled and packaged successfully.
 
-![Maven Build Success](screenshots/03-maven-build-success.png)
+![Maven Build Success](https://github.com/olajide-adedayo/aws-devops-build-tools-maven/blob/main/screenshots/03-maven-build-success.png?raw=true)
 
 ---
 
@@ -128,4 +130,4 @@ This screenshot shows the successful completion of the Maven build lifecycle, co
 
 This screenshot shows the generated WAR artifact inside the target directory, confirming successful packaging and deployment readiness.
 
-![WAR Artifact Generation](screenshots/04-war-artifact.png)
+![WAR Artifact Generation](https://github.com/olajide-adedayo/aws-devops-build-tools-maven/blob/main/screenshots/04-war-artifact.png?raw=true)
