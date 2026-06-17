@@ -64,6 +64,9 @@ Build Lifecycle (clean → compile → test → package)
 WAR Artifact Generation
    ↓
 Output Stored in target/ Directory
+---
+
+---
 
 ## 🔄 Project Development Workflow
 
