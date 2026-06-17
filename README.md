@@ -48,9 +48,11 @@ Although this project is primarily focused on Build Tools, the execution was car
 - AWS CloudShell (Linux-based environment for execution)
 - GitHub (Source code version control and repository hosting)
 
-- ## 🏗️ Solution Architecture
+  ---
 
-```text
+## 🏗️ Solution Architecture
+
+text
 Developer
    ↓
 GitHub Repository (Source Code)
@@ -64,7 +66,7 @@ Build Lifecycle (clean → compile → test → package)
 WAR Artifact Generation
    ↓
 Output Stored in target/ Directory
----
+
 
 ---
 
@@ -73,15 +75,18 @@ Output Stored in target/ Directory
 The project was implemented using the following workflow:
 
 ### Step 1: Environment Preparation
+
 - Accessed AWS CloudShell environment
 - Verified Java installation
 - Verified Maven installation
 
 ### Step 2: Source Code Setup
+
 - Cloned the vProfile application source code from GitHub
 - Navigated to the project directory
 
 ### Step 3: Maven Build Execution
+
 Executed the Maven build lifecycle:
 
 bash
@@ -93,11 +98,13 @@ mvn install
 
 
 ### Step 4: Artifact Generation
+
 - Maven successfully compiled the application
 - Dependencies were downloaded automatically
 - Build artifact was generated successfully
 
 ### Step 5: Validation
+
 - Verified build success
 - Confirmed WAR artifact generation
 - Confirmed artifact availability inside the target directory
@@ -110,7 +117,7 @@ mvn install
 
 This screenshot shows the successful cloning and preparation of the vProfile application source code before the build process.
 
-![VProfile Project Setup](https://github.com/olajide-adedayo/aws-devops-build-tools-maven/blob/main/screenshots/01-vprofile-build-milestone.png?raw=true)
+![VProfile Project Setup](screenshots/01-vprofile-build-milestone.png)
 
 ---
 
@@ -118,7 +125,7 @@ This screenshot shows the successful cloning and preparation of the vProfile app
 
 This screenshot shows the successful execution of the Maven clean phase, which removes previous build artifacts and prepares the project for a fresh build.
 
-![Maven Clean Execution](https://github.com/olajide-adedayo/aws-devops-build-tools-maven/blob/main/screenshots/02-maven-clean.png?raw=true)
+![Maven Clean Execution](screenshots/02-maven-clean.png)
 
 ---
 
@@ -126,7 +133,7 @@ This screenshot shows the successful execution of the Maven clean phase, which r
 
 This screenshot shows the successful completion of the Maven build lifecycle, confirming that the application compiled and packaged successfully.
 
-![Maven Build Success](https://github.com/olajide-adedayo/aws-devops-build-tools-maven/blob/main/screenshots/03-maven-build-success.png?raw=true)
+![Maven Build Success](screenshots/03-maven-build-success.png)
 
 ---
 
@@ -134,4 +141,4 @@ This screenshot shows the successful completion of the Maven build lifecycle, co
 
 This screenshot shows the generated WAR artifact inside the target directory, confirming successful packaging and deployment readiness.
 
-![WAR Artifact Generation](https://github.com/olajide-adedayo/aws-devops-build-tools-maven/blob/main/screenshots/04-war-artifact.png?raw=true)
+![WAR Artifact Generation](screenshots/04-war-artifact.png)
