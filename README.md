@@ -142,3 +142,19 @@ This screenshot shows the successful completion of the Maven build lifecycle, co
 This screenshot shows the generated WAR artifact inside the target directory, confirming successful packaging and deployment readiness.
 
 ![WAR Artifact Generation](screenshots/04-war-artifact.png)
+
+---
+
+## 🛠️ Troubleshooting & Root Cause Analysis
+
+### Challenge
+
+During project execution, build consistency issues were encountered due to Java and Maven runtime environment mismatches.
+
+### Root Cause
+
+Incorrect environment configuration and runtime alignment.
+
+### Resolution
+
+Verified Java installation, configured JAVA_HOME correctly, and validated Maven execution environment before rebuilding the application.
